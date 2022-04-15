@@ -5,15 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class Utilities : MonoBehaviour
 {
+    // This code block makes Utilites a Singleton
+    public static Utilities Instance { get; private set; }
+    private void Awake() { 
+        // If there is an instance, and it's not me, delete myself.
+        if (Instance != null && Instance != this) { 
+            Destroy(this); 
+        } 
+        else { 
+            Instance = this; 
+        } 
+    }
 
     [SerializeField] GameObject BallPrefab;
     [SerializeField] Vector3 Position;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static int score = 0;
 
     // Update is called once per frame
     void Update()
@@ -40,5 +47,10 @@ public class Utilities : MonoBehaviour
                 Instantiate(BallPrefab, Position + offset, Quaternion.identity);
             }
         }
+    }
+
+    // Testing score
+    private void FixedUpdate(){
+        score++;
     }
 }
