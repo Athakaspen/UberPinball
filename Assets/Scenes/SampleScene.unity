@@ -591,7 +591,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405237264}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.39, y: 0.125, z: -1.21}
+  m_LocalPosition: {x: -2.342, y: 0.125, z: -1.21}
   m_LocalScale: {x: 0.1, y: 0.25, z: 2}
   m_Children: []
   m_Father: {fileID: 2088169449}
@@ -1294,6 +1294,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3478882776735541634, guid: ae9b0eb0d27f6a24e87bf5333c3d9b49, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3478882776735541635, guid: ae9b0eb0d27f6a24e87bf5333c3d9b49, type: 3}
       propertyPath: m_Name
       value: BallPrefab (1)
@@ -1308,7 +1312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3478882776735541638, guid: ae9b0eb0d27f6a24e87bf5333c3d9b49, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.143
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 3478882776735541638, guid: ae9b0eb0d27f6a24e87bf5333c3d9b49, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3087,7 +3091,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700872806}
   m_LocalRotation: {x: 0, y: 0.19509031, z: 0, w: 0.98078537}
-  m_LocalPosition: {x: -1.9, y: 0.125, z: -2.3639998}
+  m_LocalPosition: {x: -1.852, y: 0.125, z: -2.3639998}
   m_LocalScale: {x: 1.12, y: 0.25, z: 0.1}
   m_Children: []
   m_Father: {fileID: 2088169449}
@@ -3568,7 +3572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 87a661ce62b788a44ae88d9424f64b88, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.308
+      value: -1.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 87a661ce62b788a44ae88d9424f64b88, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3766,6 +3770,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3478882776735541634, guid: ae9b0eb0d27f6a24e87bf5333c3d9b49, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3478882776735541635, guid: ae9b0eb0d27f6a24e87bf5333c3d9b49, type: 3}
       propertyPath: m_Name
       value: BallPrefab
@@ -3780,7 +3788,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3478882776735541638, guid: ae9b0eb0d27f6a24e87bf5333c3d9b49, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.143
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 3478882776735541638, guid: ae9b0eb0d27f6a24e87bf5333c3d9b49, type: 3}
       propertyPath: m_LocalPosition.z
