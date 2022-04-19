@@ -21,6 +21,7 @@ public class Utilities : MonoBehaviour
     [SerializeField] GameObject BallPrefab;
     [SerializeField] Vector3 Position;
     [SerializeField] Text GameOverText;
+    public static int hitCount = 0;
 
     private static int score = 0;
     public static int Score {
@@ -48,6 +49,7 @@ public class Utilities : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.R)){
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             Score = 0;
+            hitCount = 0;
         }
 
         // Instantiate Ball on B
