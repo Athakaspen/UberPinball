@@ -38,6 +38,8 @@ public class AudioManager : MonoBehaviour
             Debug.LogWarning("Sound: " + title + " does not exist.");
             return;
         }
+        s.source.volume = PlayerPrefs.GetFloat("gameVolume");
+        s.source.pitch = s.pitch;
         s.source.PlayOneShot(s.file);
     }
 }
