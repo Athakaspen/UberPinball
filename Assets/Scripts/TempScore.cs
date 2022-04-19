@@ -9,6 +9,6 @@ public class TempScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        myText.text = Utilities.score.ToString();
+        myText.text = Utilities.Score.ToString();
     }
 }

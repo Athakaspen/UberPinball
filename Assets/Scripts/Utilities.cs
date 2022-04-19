@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Utilities : MonoBehaviour
 {
@@ -19,8 +20,21 @@ public class Utilities : MonoBehaviour
 
     [SerializeField] GameObject BallPrefab;
     [SerializeField] Vector3 Position;
+    [SerializeField] Text GameOverText;
 
-    public static int score = 0;
+    private static int score = 0;
+    public static int Score {
+        get{
+            return score;
+        }
+        set{
+            int prevScore = score;
+            score = value;
+            if (score/1000 != prevScore/1000){
+                Instance.spawnBall();
+            }
+        }
+    }
 
     // Update is called once per frame
     void Update()
@@ -37,7 +51,7 @@ public class Utilities : MonoBehaviour
 
         // Instantiate Ball on B
         if(Input.GetKeyDown(KeyCode.B)){
-            Instantiate(BallPrefab, Position, Quaternion.identity);
+            spawnBall();
         }
 
         // Instantiate 100 Balls on H
@@ -47,10 +61,24 @@ public class Utilities : MonoBehaviour
                 Instantiate(BallPrefab, Position + offset, Quaternion.identity);
             }
         }
+
+        // End game if all balls be gone
+        if(GameObject.FindGameObjectWithTag("Ball") == null){
+            // print("Game Over!");
+            GameOver();
+        }
+    }
+
+    private void spawnBall(){
+        Instantiate(BallPrefab, Position, Quaternion.identity);
+    }
+
+    private void GameOver(){
+        GameOverText.gameObject.SetActive(true);
     }
 
     // Testing score
-    private void FixedUpdate(){
-        score++;
-    }
+    // private void FixedUpdate(){
+    //     score++;
+    // }
 }
