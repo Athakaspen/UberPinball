@@ -7,6 +7,7 @@ public class Menu : MonoBehaviour
 {
     public void Play()
     {
+        Utilities.Score = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
