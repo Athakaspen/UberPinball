@@ -40,13 +40,14 @@ public class Utilities : MonoBehaviour
     void Update()
     {
         // Quit on Escape
-        if (Input.GetKey("escape")) {
-            Application.Quit();
-        }
+        // if (Input.GetKey("escape")) {
+        //     Application.Quit();
+        // }
 
         // Reset scene on R
         if(Input.GetKeyDown(KeyCode.R)){
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Score = 0;
         }
 
         // Instantiate Ball on B
