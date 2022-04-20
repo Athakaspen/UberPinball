@@ -12,6 +12,7 @@ public class Plunger : MonoBehaviour
     // Initialized in Start()
     private SpringJoint sj;
     private Rigidbody rb;
+    private bool isPulled;
 
     // Start is called before the first frame update
     void Start()

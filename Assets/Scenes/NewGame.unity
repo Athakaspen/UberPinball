@@ -429,6 +429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RightFlipper
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 87a661ce62b788a44ae88d9424f64b88, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87a661ce62b788a44ae88d9424f64b88, type: 3}
 --- !u!4 &117152191 stripped
@@ -538,7 +542,7 @@ GameObject:
   - component: {fileID: 139670297}
   m_Layer: 0
   m_Name: EdgeRight (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -940,7 +944,7 @@ GameObject:
   - component: {fileID: 204998707}
   m_Layer: 0
   m_Name: EdgeRight (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1596,7 +1600,7 @@ GameObject:
   - component: {fileID: 405237266}
   m_Layer: 0
   m_Name: LeftCatchVert
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1691,7 +1695,7 @@ GameObject:
   - component: {fileID: 409653633}
   m_Layer: 0
   m_Name: BumperEdgeRight
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2184,7 +2188,7 @@ GameObject:
   - component: {fileID: 587990638}
   m_Layer: 0
   m_Name: RightCatchAngle (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2282,7 +2286,7 @@ GameObject:
   - component: {fileID: 611440245}
   m_Layer: 0
   m_Name: Plunger
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3166,7 +3170,7 @@ GameObject:
   - component: {fileID: 992573978}
   m_Layer: 0
   m_Name: EdgeRight (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3392,7 +3396,7 @@ GameObject:
   - component: {fileID: 1008503784}
   m_Layer: 0
   m_Name: LeftCatchAngle (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3568,7 +3572,7 @@ GameObject:
   - component: {fileID: 1031777457}
   m_Layer: 0
   m_Name: EdgeBottomRight
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3696,7 +3700,7 @@ GameObject:
   - component: {fileID: 1080980613}
   m_Layer: 0
   m_Name: EdgeBottomLeft (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3791,7 +3795,7 @@ GameObject:
   - component: {fileID: 1092793338}
   m_Layer: 0
   m_Name: EdgeTopRight
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3886,7 +3890,7 @@ GameObject:
   - component: {fileID: 1140955660}
   m_Layer: 0
   m_Name: EdgeRight
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4153,6 +4157,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c17bb57383351c542a830f09f7207de0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c17bb57383351c542a830f09f7207de0, type: 3}
 --- !u!1 &1208443261
@@ -4169,7 +4177,7 @@ GameObject:
   - component: {fileID: 1208443263}
   m_Layer: 0
   m_Name: EdgeLeft
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4359,7 +4367,7 @@ GameObject:
   - component: {fileID: 1269676813}
   m_Layer: 0
   m_Name: RightCatchVert
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4454,7 +4462,7 @@ GameObject:
   - component: {fileID: 1317209740}
   m_Layer: 0
   m_Name: RightCatchAngle
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4549,7 +4557,7 @@ GameObject:
   - component: {fileID: 1352044830}
   m_Layer: 0
   m_Name: BumperEdgeLeft
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4724,6 +4732,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2f7fc335a6320c64abff08e28c9ee73c, type: 3}
       propertyPath: m_Name
       value: big-arc-90
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2f7fc335a6320c64abff08e28c9ee73c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f7fc335a6320c64abff08e28c9ee73c, type: 3}
@@ -5012,7 +5024,7 @@ GameObject:
   - component: {fileID: 1664588022}
   m_Layer: 0
   m_Name: EdgeBottomLeft
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5103,6 +5115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1671575878}
   - component: {fileID: 1671575879}
+  - component: {fileID: 1671575880}
   m_Layer: 5
   m_Name: VolumeSlider
   m_TagString: Untagged
@@ -5179,10 +5192,35 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.507
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1671575880}
+        m_TargetAssemblyTypeName: AudioSlider, Assembly-CSharp
+        m_MethodName: changeVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1671575880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671575877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 079b0e09ddd13354ca8a9eb86b59180b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volume: {fileID: 1671575879}
 --- !u!1 &1696114983
 GameObject:
   m_ObjectHideFlags: 0
@@ -5276,7 +5314,7 @@ GameObject:
   - component: {fileID: 1700872808}
   m_Layer: 0
   m_Name: LeftCatchAngle
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5371,7 +5409,7 @@ GameObject:
   - component: {fileID: 1709075559}
   m_Layer: 0
   m_Name: EdgeTop
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5750,7 +5788,7 @@ GameObject:
   - component: {fileID: 1863519238}
   m_Layer: 0
   m_Name: PlungerBlocker
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5952,7 +5990,7 @@ GameObject:
   - component: {fileID: 1907713191}
   m_Layer: 0
   m_Name: Table
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5996,7 +6034,7 @@ GameObject:
   - component: {fileID: 1936004129}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6206,6 +6244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: big-arc-90
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2f7fc335a6320c64abff08e28c9ee73c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f7fc335a6320c64abff08e28c9ee73c, type: 3}
 --- !u!1001 &2002636118
@@ -6275,6 +6317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftFlipper
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 87a661ce62b788a44ae88d9424f64b88, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87a661ce62b788a44ae88d9424f64b88, type: 3}
 --- !u!1 &2067979101
@@ -6291,7 +6337,7 @@ GameObject:
   - component: {fileID: 2067979103}
   m_Layer: 0
   m_Name: EdgeTopLeft
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6383,7 +6429,7 @@ GameObject:
   - component: {fileID: 2088169449}
   m_Layer: 0
   m_Name: Edges
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6599,3 +6645,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae9b0eb0d27f6a24e87bf5333c3d9b49, type: 3}
+--- !u!1001 &7196465157061998639
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7196465157845581660, guid: fff49ced423ae0543b77e0aa70d2f63f, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196465157845581660, guid: fff49ced423ae0543b77e0aa70d2f63f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196465157845581660, guid: fff49ced423ae0543b77e0aa70d2f63f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196465157845581660, guid: fff49ced423ae0543b77e0aa70d2f63f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196465157845581660, guid: fff49ced423ae0543b77e0aa70d2f63f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196465157845581660, guid: fff49ced423ae0543b77e0aa70d2f63f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196465157845581660, guid: fff49ced423ae0543b77e0aa70d2f63f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196465157845581660, guid: fff49ced423ae0543b77e0aa70d2f63f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196465157845581660, guid: fff49ced423ae0543b77e0aa70d2f63f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196465157845581660, guid: fff49ced423ae0543b77e0aa70d2f63f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196465157845581660, guid: fff49ced423ae0543b77e0aa70d2f63f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196465157845581662, guid: fff49ced423ae0543b77e0aa70d2f63f, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fff49ced423ae0543b77e0aa70d2f63f, type: 3}
