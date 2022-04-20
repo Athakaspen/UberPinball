@@ -25,7 +25,7 @@ public class Utilities : MonoBehaviour
 
     public static float ScoreMultiplier {
         get {
-            return ((Utilities.hitCount) * 0.05f + 1);
+            return ((Utilities.hitCount) * 0.2f + 1);
         }
     }
 

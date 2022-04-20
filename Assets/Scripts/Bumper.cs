@@ -28,6 +28,7 @@ public class Bumper : MonoBehaviour
             otherRB.AddExplosionForce(force, transform.position,5);
             
             Utilities.Score += (int) (100 * Utilities.ScoreMultiplier);
+            Utilities.hitCount++;
         }
     }
 
