@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TempScore : MonoBehaviour
+public class DisplayMultiplier : MonoBehaviour
 {
-    public Text myText;
+    public Text multiplierText;
     // Update is called once per frame
     void Update()
     {
-        myText.text = Utilities.Score.ToString();
+        multiplierText.text = ((int) (Utilities.hitCount / 5) * 0.25f + 1).ToString() + "x";
     }
 }
