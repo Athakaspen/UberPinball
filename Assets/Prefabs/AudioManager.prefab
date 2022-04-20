@@ -68,3 +68,39 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
     loop: 0
+  - title: BumperHit1
+    file: {fileID: 8300000, guid: 0452ac4af01daa1458cca8faeb0a4f00, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - title: BallHit1
+    file: {fileID: 8300000, guid: 680a0a24565336f468020fc8fce6a921, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - title: BallHit1
+    file: {fileID: 8300000, guid: 680a0a24565336f468020fc8fce6a921, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - title: BallHit1
+    file: {fileID: 8300000, guid: 680a0a24565336f468020fc8fce6a921, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - title: BallHit1
+    file: {fileID: 8300000, guid: 680a0a24565336f468020fc8fce6a921, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - title: BallHit1
+    file: {fileID: 8300000, guid: 680a0a24565336f468020fc8fce6a921, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
