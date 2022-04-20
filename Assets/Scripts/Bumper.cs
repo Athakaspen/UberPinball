@@ -27,7 +27,7 @@ public class Bumper : MonoBehaviour
             Rigidbody otherRB = clsn.rigidbody;
             otherRB.AddExplosionForce(force, transform.position,5);
             
-            Utilities.Score += (int) (100 * ((Utilities.hitCount / 5) * 0.25f + 1));
+            Utilities.Score += (int) (100 * Utilities.ScoreMultiplier);
         }
     }
 

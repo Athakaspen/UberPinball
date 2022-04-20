@@ -29,6 +29,7 @@ public class Flipper : MonoBehaviour
 
         if (Input.GetAxis(inputName) > 0.9f){
             spring.targetPosition = pressedAngle;
+            Utilities.hitCount = 0; // reset multiplier
         } else {
             spring.targetPosition = restAngle;
         }
