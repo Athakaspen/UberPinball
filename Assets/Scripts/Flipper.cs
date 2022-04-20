@@ -12,6 +12,7 @@ public class Flipper : MonoBehaviour
     private HingeJoint hinge;
 
     public string inputName;
+    private bool isPressed;
 
     // Start is called before the first frame update
     void Start()
@@ -28,12 +29,24 @@ public class Flipper : MonoBehaviour
         spring.damper = flipperDamper;
 
         if (Input.GetAxis(inputName) > 0.9f){
+            isPressed = true;
             spring.targetPosition = pressedAngle;
-            Utilities.hitCount = 0; // reset multiplier
         } else {
+            isPressed = false;
             spring.targetPosition = restAngle;
         }
         hinge.spring = spring;
         hinge.useLimits = true;
+    }
+
+    void OnCollisionEnter(Collision clsn){
+        if (!isPressed) return;
+        if (clsn.rigidbody != null && clsn.rigidbody.tag == "Ball") 
+            Utilities.hitCount = 0; // reset multiplier
+    }
+    void OnCollisionStay(Collision clsn){
+        if (!isPressed) return;
+        if (clsn.rigidbody != null && clsn.rigidbody.tag == "Ball") 
+            Utilities.hitCount = 0; // reset multiplier
     }
 }

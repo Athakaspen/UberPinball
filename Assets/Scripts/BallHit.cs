@@ -13,7 +13,7 @@ public class BallHit : MonoBehaviour
         {
             if (col.collider.tag == "Wall")
             {
-                Debug.Log("Bump");
+                // Debug.Log("Bump");
                 float rand = Random.Range(0f, 10f);
                 if (rand <= 3.3f)
                     FindObjectOfType<AudioManager>().Play("WallHit1");
@@ -25,7 +25,7 @@ public class BallHit : MonoBehaviour
 
             if (col.collider.tag == "Player")
             {
-                Debug.Log("Ball Bump");
+                // Debug.Log("Ball Bump");
                 FindObjectOfType<AudioManager>().Play("BallHit1");
             }
             lastHit = 0f;
