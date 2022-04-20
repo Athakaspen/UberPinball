@@ -9,6 +9,6 @@ public class DisplayMultiplier : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        multiplierText.text = ((int) (Utilities.hitCount / 5) * 0.25f + 1).ToString() + "x";
+        multiplierText.text = Utilities.ScoreMultiplier.ToString() + "x";
     }
 }

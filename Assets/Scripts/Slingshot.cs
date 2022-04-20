@@ -19,7 +19,8 @@ public class Slingshot : MonoBehaviour
         Debug.Log(dir);
         ball.AddForce(dir * force);
 
-        Utilities.Score += (int) (200 * ((Utilities.hitCount / 5) * 0.25f + 1));
+        Utilities.Score += (int) (100 * Utilities.ScoreMultiplier);
+        Utilities.hitCount++;
     }
 
     void Update()

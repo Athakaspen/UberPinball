@@ -23,6 +23,12 @@ public class Utilities : MonoBehaviour
     [SerializeField] Text GameOverText;
     public static int hitCount = 0;
 
+    public static float ScoreMultiplier {
+        get {
+            return ((Utilities.hitCount) * 0.2f + 1);
+        }
+    }
+
     private static int score = 0;
     public static int Score {
         get{
@@ -74,8 +80,6 @@ public class Utilities : MonoBehaviour
 
     private void spawnBall(){
         GameObject newBall = Instantiate(BallPrefab, Position, Quaternion.identity);
-        // I have no idea how, but somehow the tag gets set to "Wall" by default
-        newBall.tag = "Ball";
     }
 
     private void GameOver(){
