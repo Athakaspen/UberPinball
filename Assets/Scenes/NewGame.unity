@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1161,6 +1161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 169
+  bumper: {fileID: 291156342}
 --- !u!136 &291156345
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1818,6 +1819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 169
+  bumper: {fileID: 445318655}
 --- !u!136 &445318658
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2464,6 +2466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 150
+  slingshot: {fileID: 1986572517}
 --- !u!65 &616210585
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3003,6 +3006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 150
+  slingshot: {fileID: 1068400290}
 --- !u!65 &943969901
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4010,6 +4014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 169
+  bumper: {fileID: 1176475728}
 --- !u!136 &1176475731
 CapsuleCollider:
   m_ObjectHideFlags: 0
