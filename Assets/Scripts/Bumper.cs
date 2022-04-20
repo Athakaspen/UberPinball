@@ -20,15 +20,15 @@ public class Bumper : MonoBehaviour
         // ball.AddForce(dir * force);
         
         
-        if(clsn.transform.tag=="Ball")
+        if(clsn.rigidbody.tag=="Ball")
         {
             hit = true;
             force = Random.Range(60.0f, 120.0f);
             Rigidbody otherRB = clsn.rigidbody;
             otherRB.AddExplosionForce(force, transform.position,5);
+            
+            Utilities.Score += (int) (100 * ((Utilities.hitCount / 5) * 0.25f + 1));
         }
-        
-        Utilities.Score += (int) (100 * ((Utilities.hitCount / 5) * 0.25f + 1));
     }
 
     void Update()

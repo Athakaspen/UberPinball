@@ -73,7 +73,9 @@ public class Utilities : MonoBehaviour
     }
 
     private void spawnBall(){
-        Instantiate(BallPrefab, Position, Quaternion.identity);
+        GameObject newBall = Instantiate(BallPrefab, Position, Quaternion.identity);
+        // I have no idea how, but somehow the tag gets set to "Wall" by default
+        newBall.tag = "Ball";
     }
 
     private void GameOver(){
