@@ -24,7 +24,7 @@ public class AudioManager : MonoBehaviour
         {
             s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.file;
-            s.source.volume = PlayerPrefs.GetFloat("gameVolume");
+            s.source.volume = PlayerPrefs.GetFloat("gameVolume") * s.volume;
             s.source.pitch = s.pitch;
             s.source.loop = s.loop;
         }
@@ -38,7 +38,7 @@ public class AudioManager : MonoBehaviour
             Debug.LogWarning("Sound: " + title + " does not exist.");
             return;
         }
-        s.source.volume = PlayerPrefs.GetFloat("gameVolume");
+        s.source.volume = PlayerPrefs.GetFloat("gameVolume") * s.volume;
         s.source.pitch = s.pitch;
         s.source.PlayOneShot(s.file);
     }
