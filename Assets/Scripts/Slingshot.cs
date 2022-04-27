@@ -16,7 +16,7 @@ public class Slingshot : MonoBehaviour
         force = Random.Range(60.0f, 120.0f);
         Rigidbody ball = clsn.rigidbody;
         Vector3 dir = Quaternion.AngleAxis(this.transform.rotation.eulerAngles.y, Vector3.up) * Vector3.forward;
-        Debug.Log(dir);
+        // Debug.Log(dir);
         ball.AddForce(dir * force);
 
         Utilities.Score += (int) (100 * Utilities.ScoreMultiplier);
