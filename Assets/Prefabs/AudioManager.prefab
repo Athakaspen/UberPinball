@@ -68,38 +68,38 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - title: BumperHit1
-    file: {fileID: 8300000, guid: 0452ac4af01daa1458cca8faeb0a4f00, type: 3}
+  - title: ScoreHit1
+    file: {fileID: 8300000, guid: e454dfa8a6ac96441b4441f709a1df40, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - title: BallHit1
-    file: {fileID: 8300000, guid: 680a0a24565336f468020fc8fce6a921, type: 3}
+  - title: ScoreHit2
+    file: {fileID: 8300000, guid: 6fabcd816ffb8fa4cb6c9c8732b7a9a2, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - title: BallHit1
-    file: {fileID: 8300000, guid: 680a0a24565336f468020fc8fce6a921, type: 3}
+  - title: ScoreHit3
+    file: {fileID: 8300000, guid: 61f54ebd2885e5a42a989b50d4aed922, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - title: BallHit1
-    file: {fileID: 8300000, guid: 680a0a24565336f468020fc8fce6a921, type: 3}
+  - title: ScoreHit4
+    file: {fileID: 8300000, guid: fe98e5f80b2ef544087c62fdbf04cfd3, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - title: BallHit1
-    file: {fileID: 8300000, guid: 680a0a24565336f468020fc8fce6a921, type: 3}
+  - title: ScoreHit5
+    file: {fileID: 8300000, guid: 01992ff68d9931744ae2e74100671a75, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - title: BallHit1
-    file: {fileID: 8300000, guid: 680a0a24565336f468020fc8fce6a921, type: 3}
+  - title: ScoreHit6
+    file: {fileID: 8300000, guid: 46c976d5e739fef4cbc4ba78eae912ac, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}

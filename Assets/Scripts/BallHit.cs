@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BallHit : MonoBehaviour
 {
-    private static float lastHit = 0f;
+    // private static float lastHit = 0f;
     void OnCollisionEnter(Collision col)
     {
         float rand = Random.Range(0f, 10f);

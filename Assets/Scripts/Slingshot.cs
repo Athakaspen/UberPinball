@@ -6,6 +6,7 @@ public class Slingshot : MonoBehaviour
 {
     [SerializeField] float force = 100f;
     [SerializeField] GameObject slingshot;
+    [SerializeField] int BaseScore = 100;
     private Vector3 scale = Vector3.zero;
     private bool hit, waiting;
     private float expandTime = 0.025f;
@@ -19,7 +20,7 @@ public class Slingshot : MonoBehaviour
         // Debug.Log(dir);
         ball.AddForce(dir * force);
 
-        Utilities.Score += (int) (100 * Utilities.ScoreMultiplier);
+        Utilities.Score += (int) (BaseScore * Utilities.ScoreMultiplier + 0.001f);
         Utilities.hitCount++;
     }
 

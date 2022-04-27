@@ -6,6 +6,7 @@ public class Bumper : MonoBehaviour
 {
     [SerializeField] float force = 100f;
     [SerializeField] GameObject bumper;
+    [SerializeField] int BaseScore = 100;
     private Vector3 scale = Vector3.zero;
     private bool hit, waiting;
     private float expandTime = 0.025f;
@@ -27,7 +28,7 @@ public class Bumper : MonoBehaviour
             Rigidbody otherRB = clsn.rigidbody;
             otherRB.AddExplosionForce(force, transform.position,5);
             
-            Utilities.Score += (int) (100 * Utilities.ScoreMultiplier);
+            Utilities.Score += (int) (BaseScore * Utilities.ScoreMultiplier + 0.001f);
             Utilities.hitCount++;
         }
     }
